@@ -22,7 +22,7 @@ function currentLine(deliLine){
     if(deliLine.length < 1) {
     return "The line is currently empty."
   }
-  //created a loop, will loop through each element of the array and add a number that will count
+  //created a loop, will loop through each element of the array and add a number that will count place in line
     for(var i = 0; i < deliLine.length; i++) {
       blankMessage.push(`${i+1}. ${deliLine[i]}`)
     }
